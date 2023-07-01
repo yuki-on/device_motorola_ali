@@ -17,14 +17,14 @@
 $(call inherit-product, device/motorola/ali/device.mk)
 
 # Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 DEVICE_MAINTAINER := Lipe
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := arrow_ali
+PRODUCT_NAME := lineage_ali
 PRODUCT_DEVICE := ali
 PRODUCT_MODEL := moto g(6)
 
