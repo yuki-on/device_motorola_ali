@@ -15,9 +15,9 @@
 
 # inherit Moto G6 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_ali.mk
+    $(LOCAL_DIR)/lineage_ali.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_ali-user \
-    arrow_ali-userdebug \
-    arrow_ali-eng
+    lineage_ali-user \
+    lineage_ali-userdebug \
+    lineage_ali-eng
